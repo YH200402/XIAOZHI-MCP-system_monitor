@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "SystemMonitor": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["e:\\mcp-001-system-monitor\\system_monitor.py"],
+      "disabled": false
+    },
+    "DateTimeTool": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["e:\\mcp-001-system-monitor\\datetime_tool.py"],
+      "disabled": false
+    },
+    "FileTool": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["e:\\mcp-001-system-monitor\\file_tool.py"],
+      "disabled": false
+    }
+  }
+}
